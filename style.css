@@ -1,0 +1,856 @@
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul{
+  margin: 0;
+}
+
+.primer_scroll{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin-top: 18.5px;
+}
+.titulo{
+  display:grid;
+}
+h1{
+  width:100%
+  display: grid;
+  font-family: neue-haas-grotesk-text, sans-serif;
+font-weight: 510;
+font-style: normal;
+font-size: 205pt;
+line-height : 250px;
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: #2E74EC;
+color: transparent;
+margin-left: 20px;
+grid-column:1;
+}
+body{
+  background: -webkit-linear-gradient(top, rgba(254,242,105,1) 0%, rgba(97,237,255,1) 57%, rgba(0,39,122,1) 100%);
+
+}
+.fecha{
+  display: grid;
+  font-family: neue-haas-grotesk-display,sans-serif;
+font-weight: 300;
+font-style: normal;
+  color: #2E74EC;
+  font-size: 42pt;
+  grid-column: 2;
+}
+
+
+.conceptos{
+  display: grid;
+  font-family: neue-haas-grotesk-display,sans-serif;
+font-weight: 300;
+font-style: normal;
+  color: #2E74EC;
+  font-size: 20pt;
+  line-height : 15pt;
+  margin-top:-182px;
+  margin-left:0px;
+  grid-column: 2;
+}
+.conceptos_lala{
+    display: inline-block;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin-top: 46.17px;
+    margin-right: 20px;
+}
+
+.lala{
+  display:grid;
+    display: inline-block;
+  font-family: 'tiemposheadlinelightitalic-archivos';
+  src: url('maria/tiemposheadlinelightitalic.eot');
+  src: url('maria/tiemposheadlinelightitalic.svg') format('svg'),
+       url('maria/tiemposheadlinelightitalic.woff') format('woff'),
+       url('maria/tiemposheadlinelightitalic.ttf') format('truetype'),
+  font-weight: 300;
+  font-style: italic;
+  color: #FF57CB;
+  font-size: 41pt;
+  line-height : 71pt;
+  margin-left: 20px;
+  margin-right: 20px;
+  grid-template-columns:1fr 2fr;
+}
+.in{
+  display: flex;
+}
+
+.conceptos_2{
+  display: none;
+}
+.definición{
+  display: grid;
+  font-family: neue-haas-grotesk-display,sans-serif;
+font-weight: 300;
+font-style: normal;
+  color: #2E74EC;
+  font-size: 20pt;
+  line-height : 35pt;
+  padding-top:95%;
+  margin-right: 20px;
+  grid-column:2;
+  grid-row:1;
+}
+.we{
+  letter-spacing: 10pt;
+  display: inline-block;
+  grid-column: 1/ span 1;
+}
+
+.igual{
+  width: 64.238px;
+  margin-right: 5px;
+  display: inline-block;
+  object-fit: contain;
+  height: 98px;
+}
+.WE{
+  display: inline-block;
+  font-family: 'tiemposheadlinelightitalic-archivos';
+  src: url('maria/tiemposheadlinelightitalic.eot');
+  src: url('maria/tiemposheadlinelightitalic.svg') format('svg'),
+       url('maria/tiemposheadlinelightitalic.woff') format('woff'),
+       url('maria/tiemposheadlinelightitalic.ttf') format('truetype'),
+  font-weight: 300px;
+  font-style: italic;
+  color: #FEF269;
+  font-size: 56pt;
+  letter-spacing: 10pt;
+  line-height : 56pt;
+}
+.segundo_scroll{
+  display: grid;
+  grid-template-rows: 120px 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
+  margin-top: 46.17px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.carita{
+    width: 64.238px;
+    display: inline-block;
+
+}
+.programa{
+  display: inline-block;
+  grid-row: 1/ span 2;
+}
+
+.num {
+  display: inline-block;
+    font-family: neue-haas-grotesk-text, sans-serif;
+  font-weight: 510;
+  font-style: normal;
+  font-size: 69.51pt;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #2E74EC;
+  color: transparent;
+  width: 100%;
+  text-align: center;
+  }
+
+  .num_evento{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 2fr 1fr 4fr;
+    margin-top: 18.5px;
+    margin-bottom: 18.5px;
+    margin-right: 20px;
+  }
+  .num_evento1{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 2fr 1fr 4fr;
+    margin-bottom: 18.5px;
+    margin-right: 20px;
+  }
+  .linea{
+    display: inline-block;
+    width: 98.667px;
+    margin-top: 20px;
+
+  }
+  .opening{
+    margin-top: 20px;
+    font-family: 'tiemposheadlinelightitalic-archivos';
+    src: url('maria/tiemposheadlinelightitalic.eot');
+    src: url('maria/tiemposheadlinelightitalic.svg') format('svg'),
+         url('maria/tiemposheadlinelightitalic.woff') format('woff'),
+         url('maria/tiemposheadlinelightitalic.ttf') format('truetype'),
+    font-weight: 300;
+    font-style: italic;
+    font-size: 37pt;
+    line-height : 37pt;
+    color: #2E74EC;
+    display: inline-block;
+
+  }
+
+
+
+.artistas{
+  font-family: neue-haas-grotesk-display,sans-serif;
+font-weight: 300;
+font-style: normal;
+  color: #2E74EC;
+  font-size: 15pt;
+  line-height : 12pt;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+  text-align: center;
+  width: 100%;
+  margin: 0px 20px 20px 20px;
+}
+.div_foto_artistas{
+  grid-column:1;
+  grid-row: 2;
+}
+.foto-artistas{
+  max-width: 470.219px;
+
+
+}
+.div_foto_artistas_2{
+  display: none;
+}
+
+.eventos{
+  display: grid;
+  grid-column: 1;
+  grid-row: 3;
+  grid-column-gap: 21.558px;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows:  134.379px 326.821px 134.379px;
+  margin-top: 46.417px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom:134.379px;
+}
+.foto-eventos{
+  grid-column: 3/ span 8;
+  grid-row:  1/ span 3;
+}
+.imag_event{
+height: 100%;
+object-fit: cover;
+width: 100%;
+
+}
+.EVENTS{
+  font-family: neue-haas-grotesk-text, sans-serif;
+font-weight: 510;
+font-style: normal;
+font-size: 88pt;
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: #FEF269;
+color: transparent;
+text-align: center;
+grid-column: 5/ span 4;
+grid-row:  2;
+margin-top: 86.821px;
+
+}
+
+.azul1{
+  background-color: #2E74EC;
+  font-family: neue-haas-grotesk-display,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20pt;
+  line-height : 23pt;
+  letter-spacing: .5pt;
+  color: #FEF269;
+  grid-column: 9/ span 3;
+  grid-row:  2;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom:31.204px;
+  padding-top:31.204px;
+}
+.azul3{
+  background-color: #2E74EC;
+  font-family: neue-haas-grotesk-display,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 23pt;
+  line-height : 20pt;
+  letter-spacing: .5pt;
+  color: #FEF269;
+  grid-column: 2/ span 3;
+  grid-row:  2;
+padding-left: 20px;
+padding-bottom:31.204px;
+padding-top:31.204px;
+
+}
+.azul2{
+  font-family: 'tiemposheadlinelightitalic-archivos';
+  src: url('maria/tiemposheadlinelightitalic.eot');
+  src: url('maria/tiemposheadlinelightitalic.svg') format('svg'),
+       url('maria/tiemposheadlinelightitalic.woff') format('woff'),
+       url('maria/tiemposheadlinelightitalic.ttf') format('truetype'),
+  font-weight: 300;
+  font-style: italic;
+  font-size: 37pt;
+  line-height : 37pt;
+  color: #FEF269;
+}
+
+.fechita1{
+  margin-bottom: 31.204px;
+  margin-top: 31.204px;
+}
+
+.fechita2{
+  margin-bottom: 31.204px;
+  margin-top: 83.204px;
+}
+.rosa1{
+  font-family: neue-haas-grotesk-display,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20pt;
+  line-height : 20pt;
+  color: #FF57CB;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 120px;
+  grid-row-gap: 67.257px;
+  text-align: left;
+  margin-left: 214px;
+  margin-right:  214px;
+
+}
+
+.rosa2{
+  font-family: 'tiemposheadlinelightitalic-archivos';
+  src: url('maria/tiemposheadlinelightitalic.eot');
+  src: url('maria/tiemposheadlinelightitalic.svg') format('svg'),
+       url('maria/tiemposheadlinelightitalic.woff') format('woff'),
+       url('maria/tiemposheadlinelightitalic.ttf') format('truetype'),
+  font-weight: 300;
+  font-style: italic;
+  font-size: 37pt;
+  line-height : 37pt;
+  color: #FF57CB;
+}
+
+.links{
+  font-family: neue-haas-grotesk-display,sans-serif;
+font-weight: 300;
+font-style: normal;
+  color: #2E74EC;
+  font-size: 15pt;
+  line-height : 12pt;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+  text-align: center;
+  margin: 134.379px 20px 26.38px 20px;
+}
+.tickets{
+  display: none;
+}
+
+
+/*
+ * Los media queries más sencillos se escriben así:
+ * Lo que significan las siguientes líneas es
+ * Para cualquier dispositivo que tenga pantalla y que mida 680px de ancho como máximo,
+ * (es decir de 0 a 680px) agrega los siguientes estilos.
+ */
+ @media only screen and (max-width: 1400px) {
+ .inicio{
+   margin-right: 20px;
+ }
+
+   h1{
+   grid-row:  1/ span 1;
+ font-size: 191pt;
+   }
+   .conceptos{
+     display: none;
+
+   }
+   .conceptos_2{
+     display: grid;
+     grid-row: 1;
+     grid-column: 1;
+     font-family: neue-haas-grotesk-display,sans-serif;
+   font-weight: 300;
+   font-style: normal;
+     color: #2E74EC;
+     font-size: 20pt;
+     line-height : 15pt;
+
+   }
+   .fecha{
+     display: grid;
+     font-family: neue-haas-grotesk-display,sans-serif;
+   font-weight: 300;
+   font-style: normal;
+     color: #2E74EC;
+     font-size: 42pt;
+     grid-row: 1;
+   }
+
+
+   .definición{
+     grid-row: 1;
+     padding-top: 0%;
+     grid-column: 2;
+     margin-right: 0px;
+     margin-bottom: 0px;
+   }
+   .conceptos_lala{
+  margin-top:  46.417px;
+     margin-left: 20px;
+     margin-right: 20px;
+     column-gap: 20px;
+       grid-template-columns: 1fr 1fr;
+  }
+
+  .lala{
+    grid-row: 2;
+    grid-column: 1/span 2;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+   .artistas{
+     grid-template-columns: 1fr 1fr;
+ margin-left: 0;
+ row-gap: 22.625px;
+   }
+
+   .foto-artistas{
+     max-width: 470.219px;
+     display: inline-block;
+
+   }
+   .div_foto_artistas_2{
+     display: none;
+   }
+   .programa{
+
+   }
+   .eventos{
+     display: grid;
+     grid-column: 6;
+     grid-row: 2;
+     grid-column-gap: 20px;
+     grid-row-gap: 46.417px;
+     grid-template-columns: repeat(6, 1fr);
+     grid-template-rows: 544.354px 326.821px;
+     margin-top: 46.417px;
+     margin-right: 20px;
+     margin-left: 20px;
+     margin-bottom:134.379px;
+   }
+   .foto-eventos{
+     grid-column: 1/ span 6;
+     grid-row:  1;
+   }
+   .EVENTS{
+   grid-column: 2/ span 4;
+   grid-row:  1;
+   margin-top: 192.821px;
+
+   }
+   .azul1{
+
+     font-weight: 300;
+     font-style: normal;
+     font-size: 20pt;
+     line-height : 20pt;
+     color: #FEF269;
+     grid-column: 5/ span 2;
+     grid-row:  2;
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-bottom:31.204px;
+     padding-top:31.204px;
+   }
+   .azul3{
+     background-color: #2E74EC;
+     font-family: neue-haas-grotesk-display,sans-serif;
+     font-weight: 300;
+     font-style: normal;
+     font-size: 20pt;
+     line-height : 20pt;
+     color: #FEF269;
+     grid-column: 1/ span 2;
+     grid-row:  2;
+   padding-left: 20px;
+   padding-bottom:31.204px;
+   padding-top:31.204px;
+
+   }
+
+   .azul2{
+     font-family: 'tiemposheadlinelightitalic-archivos';
+     src: url('maria/tiemposheadlinelightitalic.eot');
+     src: url('maria/tiemposheadlinelightitalic.svg') format('svg'),
+          url('maria/tiemposheadlinelightitalic.woff') format('woff'),
+          url('maria/tiemposheadlinelightitalic.ttf') format('truetype'),
+     font-weight: 300;
+     font-style: italic;
+     font-size: 37pt;
+     line-height : 37pt;
+     color: #FEF269;
+   }
+
+   .rosa1{
+     text-align: center;
+     margin-right: 20px;
+     margin-left: 20px;
+     column-gap: 20px;
+   }
+   .tickets{
+   display: none;
+   }
+ }
+
+@media only screen and (max-width: 1100px) {
+
+  .primer_scroll{
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+}
+.inicio{
+  margin-right: 20px;
+}
+
+  h1{
+  grid-row:  1/ span 1;
+font-size: 191pt;
+  }
+  .conceptos{
+    display: none;
+  }
+
+  .conceptos_lala{
+      row-gap: 46.417px;
+  }
+  .fecha{
+    display: grid;
+    font-family: neue-haas-grotesk-display,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+    color: #2E74EC;
+    font-size: 42pt;
+    grid-row: 1;
+  }
+
+
+ .lala{
+   grid-row: 2;
+   grid-column: 1/span 2;
+   margin-left: 0px;
+   margin-right: 0px;
+ }
+.WE{
+  grid-column: 1;
+  grid-row: 1;
+  font-size: 35pt;
+  line-height: normal;
+}
+.carita{
+    width: 31.238px;
+    display: inline-block;
+
+}
+.div_foto_artistas{
+  grid-column: 2;
+  grid-row:2;
+
+}
+.foto-artistas{
+  max-width: 470.219px;
+  margin-top: 0px;
+display: inline-block;
+}
+.div_foto_artistas_2{
+  display: none;
+}
+.programa{
+  grid-column: 1;
+  grid-row: 2;
+}
+.definición{
+  grid-row: 1;
+  padding-top: 0%;
+  grid-column: 2;
+  margin-right: 0px;
+}
+
+  .num_evento{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+      margin-top: 46.41px;
+  }
+  .num_evento1{
+    grid-template-columns: 1fr;
+    margin-bottom: 18.5px;
+
+  }
+  .linea{
+    display: none;
+  }
+  .artistas{
+    grid-template-columns: 1fr 1fr;
+margin-left: 0;
+row-gap: 22.625px;
+  }
+.div_foto_artistas{
+  grid-column: 2;
+}
+  .foto-artistas{
+    max-width: 276.133px;
+
+  }
+  .programa{
+grid-column: 1;
+  }
+  .eventos{
+    display: grid;
+    grid-column: 6;
+    grid-row: 2;
+    grid-column-gap: 20px;
+    grid-row-gap: 46.417px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr 1fr;
+    margin-top: 46.417px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom:134.379px;
+
+  }
+  .foto-eventos{
+    grid-column: 1/ span 6;
+    grid-row:  1;
+  }
+  .EVENTS{
+  grid-column: 2/ span 4;
+  grid-row:  1;
+  margin-top: 192.821px;
+
+  }
+  .azul1{
+
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20pt;
+    line-height : 20pt;
+    color: #FEF269;
+    grid-column: 5/ span 2;
+    grid-row:  2;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom:31.204px;
+    padding-top:31.204px;
+  }
+  .azul3{
+    background-color: #2E74EC;
+    font-family: neue-haas-grotesk-display,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20pt;
+    line-height : 20pt;
+    color: #FEF269;
+    grid-column: 1/ span 2;
+    grid-row:  2;
+  padding-left: 20px;
+  padding-bottom:31.204px;
+  padding-top:31.204px;
+
+  }
+
+  .azul2{
+    font-family: 'tiemposheadlinelightitalic-archivos';
+    src: url('maria/tiemposheadlinelightitalic.eot');
+    src: url('maria/tiemposheadlinelightitalic.svg') format('svg'),
+         url('maria/tiemposheadlinelightitalic.woff') format('woff'),
+         url('maria/tiemposheadlinelightitalic.ttf') format('truetype'),
+    font-weight: 300;
+    font-style: italic;
+    font-size: 37pt;
+    line-height : 37pt;
+    color: #FEF269;
+  }
+
+  .rosa1{
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    column-gap: 20px;
+  }
+  .tickets{
+  display: none;
+  }
+}
+
+@media only screen and (max-width: 380px){
+  .primer_scroll{
+    grid-template-columns: 1fr;
+    margin-left: 20.5px;
+    margin-right: 20.5px;
+    row-gap: 46.417px;
+  }
+
+  h1{
+  grid-row:  1;
+font-size: 84pt;
+line-height: 82pt;
+margin-left:0px;
+grid-column: 1;
+
+}
+  .fecha{
+    text-align: left;
+    font-size:42pt;
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .conceptos_lala{
+    grid-template-columns: 1fr;
+  }
+  .conceptos_2{
+    text-align: right;
+  }
+
+
+  .definición{
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .lala{
+    grid-row:3;
+    font-size: 20pt;
+    line-height: 26pt;
+    grid-column:  1;
+  }
+  .igual{
+    height: 43px;
+
+  }
+  .WE{
+    font-size: 31pt;
+    letter-spacing: 10pt;
+    line-height : 47pt;
+
+  }
+  .segundo_scroll{
+    max-width: 380px;
+    margin-left: 20.5px;
+    margin-right: 20.5px;
+    grid-template-columns: 1fr;
+  }
+  .div_foto_artistas{
+    grid-column: 1;
+    grid-row:  2;
+
+  }
+  .foto-artistas{
+    max-width: 329.794px;
+  }
+  .div_foto_artistas_2{
+    display: inline-block;
+  }
+  .programa{
+    margin-top: 18.5px;
+    grid-column: 1;
+    grid-row:  3;
+}
+.num_evento{
+margin-top: 18.5px;
+margin-left: 0px;
+margin-right: 0px;
+}
+.num_evento1{
+margin-top: 18.5px;
+margin-left: 0px;
+margin-right: 0px;
+}
+  .artistas{
+    column-gap:0px;
+    font-size:15pt;
+  }
+  .eventos{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr 1fr 1fr;
+    margin-top: 46.417px;
+    margin-bottom:134.379px;
+    height 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .imag_event{
+    grid-column: 1;
+    grid-row:  1;
+    max-width: 380px
+  }
+  .foto-eventos{
+    grid-column: 1;
+  }
+  .EVENTS{
+  grid-column: 1;
+  grid-row:  1;
+  margin-top: 35%;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-size: 80px;
+  }
+  .azul1{
+  background-color: transparent;
+    grid-column: 1;
+    grid-row:  3;
+      text-align: right;
+  }
+  .azul3{
+    background-color: transparent;
+    grid-column: 1;
+    grid-row:  2;
+
+  }
+  .rosa1{
+    text-align: center;
+    grid-template-columns:1fr;
+    grid-template-rows:repeat(7,1fr);
+    margin-right: 20px;
+    margin-left: 20px;
+    row-gap: 18.323px;
+  }
+  .tickets{
+    text-align: center;
+    display: block;
+    font-family: neue-haas-grotesk-text, sans-serif;
+  font-weight: 510;
+  font-style: normal;
+  font-size: 80px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #FEF269;
+  color: transparent;
+  text-align: center;
+  }
+  .links{
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-right:   20.5px;
+    margin-left:   20.5px;
+    grid-row-gap: 18.5px;
+  }
+
+}

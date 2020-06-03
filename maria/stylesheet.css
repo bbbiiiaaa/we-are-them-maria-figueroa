@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'TiemposHeadline';
+	src: url('fonts/tiemposheadlinelightitalic.eot');
+	src: url('fonts/tiemposheadlinelightitalic.eot?#iefix') format('embedded-opentype'),
+	url('fonts/tiemposheadlinelightitalic.svg#tiemposheadlinelightitalic') format('svg'),
+	url('fonts/tiemposheadlinelightitalic.ttf') format('truetype'),
+	url('fonts/tiemposheadlinelightitalic.woff') format('woff'),
+	url('fonts/tiemposheadlinelightitalic.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+}
