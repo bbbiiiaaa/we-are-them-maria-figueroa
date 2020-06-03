@@ -220,9 +220,23 @@ font-style: normal;
 }
 .foto-artistas{
   max-width: 470.219px;
-
-
+  display: block;
 }
+
+.foto-artistas__default{
+  display: block;
+}
+
+.foto-artistas__hidding{
+  display: none;
+}
+
+.foto-artistas__show-fixed{
+  position: fixed;
+  top: 0;
+  display: block;
+}
+
 .div_foto_artistas_2{
   display: none;
 }
@@ -436,8 +450,6 @@ font-style: normal;
 
    .foto-artistas{
      max-width: 470.219px;
-     display: inline-block;
-
    }
    .div_foto_artistas_2{
      display: none;
@@ -580,7 +592,6 @@ font-size: 191pt;
 .foto-artistas{
   max-width: 470.219px;
   margin-top: 0px;
-display: inline-block;
 }
 .div_foto_artistas_2{
   display: none;
@@ -763,9 +774,16 @@ grid-column: 1;
     grid-row:  2;
 
   }
-  .foto-artistas{
-    max-width: 329.794px;
+
+  .foto-artistas__hidding{
+    display: none;
   }
+
+  .foto-artistas__show-fixed{
+    position: static;
+    display: block;
+  }
+
   .div_foto_artistas_2{
     display: inline-block;
   }
